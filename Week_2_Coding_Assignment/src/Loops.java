@@ -11,23 +11,23 @@ public class Loops {
 		 */
 		// situation a) A while loop that prints all even numbers
 		// from 0 to 100
-//		int i = 0;
-//		while (i <= 100) {
-//			System.out.println(i);
-//			i += 2;
-//		}
+		int i = 0;
+		while (i <= 100) {
+			System.out.println(i);
+			i += 2;
+		}
 		// situation b) A while loop that prints every 3rd number going backwards
 		// from 100 until we reach 0
-//		int t = 100;
-//		while (t >= 0) {
-//			System.out.println(t);
-//			t -= 3;
-//		}
+		int t = 100;
+		while (t >= 0) {
+			System.out.println(t);
+			t -= 3;
+		}
 		// situation c) A for loop that prints every other number from 1
 		// to 100
-//		for (int g = 1; g <= 100; g += 2) {
-//			System.out.println(g);
-//		}
+		for (int g = 1; g <= 100; g += 2) {
+			System.out.println(g);
+		}
 		/*
 		 * //situation d) A for loop that prints every number from 0 to 100, but if the
 		 * number is divisible by 3, it prints “Hello” instead of the number, and if the
